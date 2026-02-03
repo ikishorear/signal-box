@@ -1,0 +1,8 @@
+CREATE TABLE Threads(
+    ThreadID UUID PRIMARY KEY,
+    SignalID UUID NOT NULL,
+    UserID UUID NOT NULL,
+    Comment TEXT NOT NULL,
+    isActive BOOLEAN DEFAULT TRUE,
+    createdAt TIMESTAMPTZ DEFAULT NOW()
+)
