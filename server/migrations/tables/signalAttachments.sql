@@ -7,5 +7,10 @@ CREATE TABLE SignalAttachments(
     SignalAttachmentType SAType DEFAULT 'URL',
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW()
+
+    CONSTRAINT fk_signals
+        FOREIGN KEY (SignalID)
+        REFERENCES Signals(SignalID)
+        ON DELETE CASCADE
 )
 

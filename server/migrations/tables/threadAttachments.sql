@@ -4,4 +4,9 @@ CREATE TABLE ThreadAttachments(
     ThreadAttachmentURL TEXT NOT NULL,
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW()
+
+    CONSTRAINT fk_thread
+        FOREIGN KEY (ThreadID)
+        REFERENCES Threads(ThreadID)
+        ON DELETE CASCADE
 )

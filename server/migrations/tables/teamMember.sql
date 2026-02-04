@@ -8,7 +8,9 @@ CREATE TABLE TeamMembers(
     isActive BOOELAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()
-)
 
--- Triggers for updatedAt
--- Foregien keys
+    CONSTRAINT fk_users
+        FOREIGN KEY (UserID)
+        REFERENCES Users(UserID)
+        DELETE ON CASCADE
+)

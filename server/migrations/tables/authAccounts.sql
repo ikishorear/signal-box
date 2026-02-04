@@ -8,4 +8,9 @@ CREATE TABLE AuthAccounts(
     token TEXT,
     isActive BOOLEAN TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW()
+
+    CONSTRAINT fk_auth_users
+        FOREIGN KEY (UserID)
+        REFERENCES Users(UserID)
+        ON DELETE CASCADE
 )
