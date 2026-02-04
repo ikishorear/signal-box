@@ -13,5 +13,3 @@ CREATE TABLE Users(
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()
 )
-
--- Implement trigger for updatedAt

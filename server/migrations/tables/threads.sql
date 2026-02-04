@@ -5,4 +5,5 @@ CREATE TABLE Threads(
     Comment TEXT NOT NULL,
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW()
+    updatedAt TIMESTAMPTZ DEFAULT NOW()
 )

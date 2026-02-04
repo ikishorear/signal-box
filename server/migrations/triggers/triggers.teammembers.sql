@@ -1,0 +1,4 @@
+CREATE TRIGGER updatedAtTeamMembers
+BEFORE UPDATE ON TeamMembers
+FOR EACH ROW
+EXECUTE FUNCTION updatedAt()

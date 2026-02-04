@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION updatedAt()
+RETURNS TRIGGER AS $$
+BEGIN
+    NEW.updatedAt = NOW();
+    RETURN NEW;
+END
+$$ LANGUAGE plpgsql;

@@ -1,0 +1,4 @@
+CREATE TRIGGER updatedAtProjects
+BEFORE UPDATE ON Projects
+FOR EACH ROW
+EXECUTE FUNCTION updatedAt()
