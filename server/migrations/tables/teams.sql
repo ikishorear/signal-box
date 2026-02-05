@@ -6,5 +6,3 @@ CREATE TABLE Teams(
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()
 )
-
--- Triggers for updatedAt

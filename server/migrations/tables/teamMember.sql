@@ -13,4 +13,9 @@ CREATE TABLE TeamMembers(
         FOREIGN KEY (UserID)
         REFERENCES Users(UserID)
         DELETE ON CASCADE
+    
+    CONSTRAINT fk_teams
+        FOREIGN KEY (TeamID)
+        REFERENCES Teams(TeamID)
+        DELETE ON CASCADE
 )

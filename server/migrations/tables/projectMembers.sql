@@ -1,10 +1,10 @@
-CREATE TYPE ProjectMemberRoleType AS ENUM('Owner', 'Member')
+CREATE TYPE ProjectMemberRoleType AS ENUM('LEAD', 'MEMBER')
 
 CREATE TABLE ProjectMembers(
     ProjectMemberID UUID PRIMARY KEY,
     ProjectID UUID NOT NULL,
     UserID UUID NOT NULL,
-    ProjectMemberRole ProjectMemberRoleType DEFAULT 'Member',
+    ProjectMemberRole ProjectMemberRoleType DEFAULT 'MEMBER',
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()

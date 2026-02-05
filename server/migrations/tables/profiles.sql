@@ -3,6 +3,7 @@ CREATE TABLE Profiles(
     UserID UUID NOT NULL,
     firstName TEXT,
     lastName TEXT,
+    avatar BYTEA,
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()
@@ -12,6 +13,3 @@ CREATE TABLE Profiles(
         REFERENCES Users(UserID)
         ON DELETE CASCADE
 )
-
--- Trigger for updatedAt
--- Add forgien keys

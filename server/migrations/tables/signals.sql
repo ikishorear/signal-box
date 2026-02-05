@@ -4,6 +4,7 @@ CREATE TYPE SignalStatusType AS ENUM('OPEN', 'DISCUSSING', 'DECIDED')
 CREATE TABLE Signals(
     SignalID UUID PRIMARY KEY,
     ProjectID UUID NOT NULL,
+    UserID UUID NOT NULL,
     SignalTitle VARCHAR(20) NOT NULL,
     SignalDescription TEXT NOT NULL,
     SignalStatus SignalStatusType DEFAULT 'OPEN',
@@ -15,5 +16,10 @@ CREATE TABLE Signals(
     CONSTRAINT fk_project
         FOREIGN KEY (ProjectID)
         REFERENCES Projects(ProjectID)
+        ON DELETE CASCADE
+    
+    CONSTRAINT fk_users
+        FOREIGN KEY (UserID)
+        REFERENCES Users(UserID)
         ON DELETE CASCADE
 )
