@@ -5,7 +5,7 @@ CREATE TABLE Users(
     UserID UUID PRIMARY KEY,
     email TEXT UNIQUE NOT NULL,
     phone TEXT UNIQUE CHECK(char_length(phone) BETWEEN 10 AND 15),
-    password TEXT CHECK(char_length(password) BETWEEN 8 AND 20),
+    password TEXT,
     auth_provider Auth_Provider DEFAULT 'EMAIL',
     role User_Role DEFAULT 'USER',
     isActive BOOLEAN DEFAULT TRUE,

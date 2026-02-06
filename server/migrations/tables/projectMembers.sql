@@ -18,5 +18,7 @@ CREATE TABLE ProjectMembers(
         FOREIGN KEY (UserID)
         REFERENCES Users(UserID)
         ON DELETE CASCADE
+    
+    CONSTRAINT UNIQUE(ProjectID, UserID)
 )
 

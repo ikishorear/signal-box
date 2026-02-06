@@ -11,5 +11,7 @@ CREATE TABLE Projects(
         FOREIGN KEY (TeamID)
         REFERENCES Teams(TeamID)
         ON DELETE CASCADE
+    
+    CONSTRAINT UNIQUE(TeamID, ProjectName)
 )
 

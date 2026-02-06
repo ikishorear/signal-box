@@ -22,4 +22,6 @@ CREATE TABLE Signals(
         FOREIGN KEY (UserID)
         REFERENCES Users(UserID)
         ON DELETE CASCADE
+    
+    CONSTRAINT UNIQUE(ProjectID, SignalTitle, SignalType)
 )

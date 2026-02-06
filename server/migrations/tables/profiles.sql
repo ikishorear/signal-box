@@ -1,6 +1,6 @@
 CREATE TABLE Profiles(
     ProfileID UUID PRIMARY KEY,
-    UserID UUID NOT NULL,
+    UserID UUID UNIQUE NOT NULL,
     firstName TEXT,
     lastName TEXT,
     avatar BYTEA,
