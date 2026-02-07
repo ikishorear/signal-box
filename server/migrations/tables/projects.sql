@@ -5,7 +5,7 @@ CREATE TABLE Projects(
     ProjectDescription TEXT NOT NULL,
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
-    updatedAt TIMESTAMPTZ DEFAULT NOW()
+    updatedAt TIMESTAMPTZ DEFAULT NOW(),
 
     CONSTRAINT fk_projects_team
         FOREIGN KEY (TeamID)
@@ -15,3 +15,4 @@ CREATE TABLE Projects(
     CONSTRAINT UNIQUE(TeamID, ProjectName)
 )
 
+CREATE INDEX index_projects_TeamID ON Projects(TeamID) WHERE isActive = true

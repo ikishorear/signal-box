@@ -10,3 +10,5 @@ CREATE TABLE ThreadAttachments(
         REFERENCES Threads(ThreadID)
         ON DELETE CASCADE
 )
+
+CREATE INDEX index_threadattachment_threadID on ThreadAttachments(ThreadID) WHERE isActive = true 

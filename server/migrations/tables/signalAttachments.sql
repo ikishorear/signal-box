@@ -14,3 +14,4 @@ CREATE TABLE SignalAttachments(
         ON DELETE CASCADE
 )
 
+CREATE INDEX index_signalattachments_signalID ON SignalAttachments(SignalID) WHERE isActive = true

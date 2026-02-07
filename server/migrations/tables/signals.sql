@@ -11,7 +11,7 @@ CREATE TABLE Signals(
     SignalType SignalType DEFAULT 'IDEA',
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
-    updatedAt TIMESTAMPTZ DEFAULT NOW()
+    updatedAt TIMESTAMPTZ DEFAULT NOW(),
 
     CONSTRAINT fk_project
         FOREIGN KEY (ProjectID)
@@ -25,3 +25,6 @@ CREATE TABLE Signals(
     
     CONSTRAINT UNIQUE(ProjectID, SignalTitle, SignalType)
 )
+
+CREATE INDEX index_signals_ProjectID ON Signals(ProjectID) WHERE isActive = true
+CREATE INDEX index_signals_UserID on Signals(UserID) WHERE isActive = true

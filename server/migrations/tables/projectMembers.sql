@@ -7,7 +7,7 @@ CREATE TABLE ProjectMembers(
     ProjectMemberRole ProjectMemberRoleType DEFAULT 'MEMBER',
     isActive BOOLEAN DEFAULT TRUE,
     createdAt TIMESTAMPTZ DEFAULT NOW(),
-    updatedAt TIMESTAMPTZ DEFAULT NOW()
+    updatedAt TIMESTAMPTZ DEFAULT NOW(),
 
     CONSTRAINT fk_project_pm
         FOREIGN KEY (ProjectID)
@@ -22,3 +22,4 @@ CREATE TABLE ProjectMembers(
     CONSTRAINT UNIQUE(ProjectID, UserID)
 )
 
+CREATE INDEX index_projectMembers_projectId ON ProjectMembers(ProjectID) WHERE isActive = true

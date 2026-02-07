@@ -18,3 +18,6 @@ CREATE TABLE TeamMembers(
         REFERENCES Teams(TeamID)
         DELETE ON CASCADE
 )
+
+
+CREATE INDEX index_teammembers_TeamID  ON TeamMembers(TeamID) WHERE isActive = true

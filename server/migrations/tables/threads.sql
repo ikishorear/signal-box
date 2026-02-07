@@ -23,3 +23,5 @@ CREATE TABLE Threads(
         REFERENCES Threads(ThreadID)
         ON DELETE CASCADE
 )
+
+CREATE INDEX index_threads_SignalID ON Threads(SignalID) WHERE isActive = true

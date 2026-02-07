@@ -12,3 +12,5 @@ CREATE TABLE Users(
     createdAt TIMESTAMPTZ DEFAULT NOW(),
     updatedAt TIMESTAMPTZ DEFAULT NOW()
 )
+
+CREATE INDEX index_users_email ON Users(email) WHERE isActive = true
