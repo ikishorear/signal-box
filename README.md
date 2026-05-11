@@ -20,7 +20,7 @@ SignalBox centralizes all signals into a structured workspace where teams can di
 * **Team** – Private workspace created by a Team Lead
 * **Project** – Groups all signals for a specific initiative
 * **Signal** – Idea, Feedback, Concern, or Risk
-* **Signal Lifecycle** – Open → Discussing → Decided
+* **Signal Lifecycle** – Open → Discussing → Decided -> Open
 
 
 ## Features
