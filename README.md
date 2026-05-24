@@ -1,3 +1,2 @@
-## Signal Box
-
-- Place where people can post signals and have a conversation thread for that signal. Like "X" but for projects and products.
+# Signal Box
+Place where people can post signals and have a conversation thread for that signal. Like "X" but for ideas and products.
