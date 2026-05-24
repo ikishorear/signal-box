@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "project": "ApplePie",
+    "signal": "Users want offline mode",
+    "thread": "Should we ship offline sync in v2?",
+    "author": "Eddie Lake",
+    "datetime": "2026-05-24T09:15:00Z"
+  },
+  {
+    "id": 2,
+    "project": "ApplePie",
+    "signal": "Pricing feedback from beta users",
+    "thread": "Is $12/month the right entry tier?",
+    "author": "Jamik Tashpulatov",
+    "datetime": "2026-05-24T08:42:00Z"
+  },
+  {
+    "id": 3,
+    "project": "Signal Box",
+    "signal": "Thread replies need better sorting",
+    "thread": "Chronological vs. top-voted replies",
+    "author": "Sarah Chen",
+    "datetime": "2026-05-23T18:30:00Z"
+  },
+  {
+    "id": 4,
+    "project": "Signal Box",
+    "signal": "Mobile app interest is high",
+    "thread": "Prioritize iOS or Android first?",
+    "author": "Marcus Webb",
+    "datetime": "2026-05-23T16:05:00Z"
+  },
+  {
+    "id": 5,
+    "project": "NovaLaunch",
+    "signal": "Launch checklist missing legal review",
+    "thread": "Who owns compliance before go-live?",
+    "author": "Priya Nair",
+    "datetime": "2026-05-23T11:20:00Z"
+  },
+  {
+    "id": 6,
+    "project": "NovaLaunch",
+    "signal": "Landing page bounce rate spiked",
+    "thread": "Rewrite hero copy or fix page speed?",
+    "author": "Eddie Lake",
+    "datetime": "2026-05-22T20:45:00Z"
+  },
+  {
+    "id": 7,
+    "project": "Orbit CRM",
+    "signal": "Sales team wants pipeline filters",
+    "thread": "Custom filters vs. saved views",
+    "author": "Jamik Tashpulatov",
+    "datetime": "2026-05-22T15:10:00Z"
+  },
+  {
+    "id": 8,
+    "project": "Orbit CRM",
+    "signal": "Integration request: Slack alerts",
+    "thread": "Build native integration or use Zapier?",
+    "author": "Sarah Chen",
+    "datetime": "2026-05-22T09:55:00Z"
+  },
+  {
+    "id": 9,
+    "project": "ApplePie",
+    "signal": "Onboarding drop-off at step 3",
+    "thread": "Simplify profile setup or add progress save?",
+    "author": "Marcus Webb",
+    "datetime": "2026-05-21T19:25:00Z"
+  },
+  {
+    "id": 10,
+    "project": "Signal Box",
+    "signal": "Authors want markdown in threads",
+    "thread": "Full markdown support or limited formatting?",
+    "author": "Priya Nair",
+    "datetime": "2026-05-21T14:00:00Z"
+  },
+  {
+    "id": 11,
+    "project": "NovaLaunch",
+    "signal": "Partnership offer from Acme Labs",
+    "thread": "Co-marketing deal terms and timeline",
+    "author": "Eddie Lake",
+    "datetime": "2026-05-21T10:35:00Z"
+  },
+  {
+    "id": 12,
+    "project": "Orbit CRM",
+    "signal": "Customers asking for role-based access",
+    "thread": "RBAC scope for Q3 release",
+    "author": "Jamik Tashpulatov",
+    "datetime": "2026-05-20T17:50:00Z"
+  },
+  {
+    "id": 13,
+    "project": "ApplePie",
+    "signal": "Feature request: shared workspaces",
+    "thread": "Team plans and permission model",
+    "author": "Sarah Chen",
+    "datetime": "2026-05-20T13:15:00Z"
+  },
+  {
+    "id": 14,
+    "project": "Signal Box",
+    "signal": "Need clearer signal status labels",
+    "thread": "Open, active, resolved, or archived?",
+    "author": "Marcus Webb",
+    "datetime": "2026-05-20T08:40:00Z"
+  },
+  {
+    "id": 15,
+    "project": "NovaLaunch",
+    "signal": "Demo video underperforming",
+    "thread": "Reshoot with customer story or product walkthrough?",
+    "author": "Priya Nair",
+    "datetime": "2026-05-19T21:05:00Z"
+  },
+  {
+    "id": 16,
+    "project": "Orbit CRM",
+    "signal": "Support tickets mention duplicate contacts",
+    "thread": "Automatic dedupe rules for imports",
+    "author": "Eddie Lake",
+    "datetime": "2026-05-19T16:30:00Z"
+  },
+  {
+    "id": 17,
+    "project": "ApplePie",
+    "signal": "API rate limits too strict for power users",
+    "thread": "Higher limits on pro plan?",
+    "author": "Jamik Tashpulatov",
+    "datetime": "2026-05-19T12:00:00Z"
+  },
+  {
+    "id": 18,
+    "project": "Signal Box",
+    "signal": "Notifications feel too noisy",
+    "thread": "Digest emails vs. real-time alerts",
+    "author": "Sarah Chen",
+    "datetime": "2026-05-18T18:20:00Z"
+  },
+  {
+    "id": 19,
+    "project": "NovaLaunch",
+    "signal": "Early adopters want a public roadmap",
+    "thread": "What should we expose externally?",
+    "author": "Marcus Webb",
+    "datetime": "2026-05-18T11:45:00Z"
+  },
+  {
+    "id": 20,
+    "project": "Orbit CRM",
+    "signal": "Reporting exports timing out",
+    "thread": "Background jobs for large CSV exports",
+    "author": "Priya Nair",
+    "datetime": "2026-05-17T15:55:00Z"
+  },
+  {
+    "id": 21,
+    "project": "ApplePie",
+    "signal": "Dark mode contrast issues reported",
+    "thread": "Design pass on form inputs and badges",
+    "author": "Eddie Lake",
+    "datetime": "2026-05-17T09:10:00Z"
+  },
+  {
+    "id": 22,
+    "project": "Signal Box",
+    "signal": "Project switching should be faster",
+    "thread": "Recent projects shortcut in sidebar",
+    "author": "Jamik Tashpulatov",
+    "datetime": "2026-05-16T20:35:00Z"
+  },
+  {
+    "id": 23,
+    "project": "NovaLaunch",
+    "signal": "Referral program idea from community",
+    "thread": "Credits-based rewards vs. cash incentives",
+    "author": "Sarah Chen",
+    "datetime": "2026-05-16T14:25:00Z"
+  },
+  {
+    "id": 24,
+    "project": "Orbit CRM",
+    "signal": "Calendar sync conflicts with Google",
+    "thread": "Two-way sync reliability improvements",
+    "author": "Marcus Webb",
+    "datetime": "2026-05-15T17:00:00Z"
+  },
+  {
+    "id": 25,
+    "project": "Signal Box",
+    "signal": "Search should include thread content",
+    "thread": "Full-text search rollout plan",
+    "author": "Priya Nair",
+    "datetime": "2026-05-15T10:50:00Z"
+  }
+]
