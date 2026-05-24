@@ -1,4 +1,0 @@
-CREATE TRIGGER updatedAtTriggerUsers
-BEFORE UPDATE ON Users
-FOR EACH ROW
-EXECUTE FUNCTION updatedAt()

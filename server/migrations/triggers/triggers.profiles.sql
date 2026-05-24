@@ -1,4 +1,0 @@
-CREATE TRIGGER updatedAtProfiles
-BEFORE UPDATE ON Profiles
-FOR EACH ROW 
-EXECUTE FUNCTION updatedAt()

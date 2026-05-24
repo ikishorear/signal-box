@@ -1,5 +1,0 @@
-CREATE TRIGGER updatedAtProjectMembers
-BEFORE UPDATE ON ProjectMember
-FOR EACH ROW
-EXECUTE FUNCTION updatedAt()
-
